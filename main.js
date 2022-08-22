@@ -55,18 +55,20 @@ document.addEventListener('keydown', (event) => {
 	var name = event.key;
 	var code = event.code;
 
-	if (name == 'n'){
+	if (name == 'e'){
 		document.getElementById('daysh').innerHTML = "days"
 		document.getElementById('hoursh').innerHTML = "hours"
 		document.getElementById('minutesh').innerHTML = "minutes"
 		document.getElementById('secondsh').innerHTML = "seconds"
+		document.getElementById('h1').innerHTML = "New year coming in"
 		alert('lang = English')
 	}
-	if (name == 'e'){
+	if (name == 'p'){
 		document.getElementById('daysh').innerHTML = "dias"
 		document.getElementById('hoursh').innerHTML = "horas"
 		document.getElementById('minutesh').innerHTML = "minutos"
 		document.getElementById('secondsh').innerHTML = "segundos"
-		alert('lang = Español')
+		document.getElementById('h1').innerHTML = "Ano novo chegando em"
+		alert('lang = Portuguese')
 	}
   }, false);
